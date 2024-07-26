@@ -1,0 +1,8 @@
+/* UTILITIES */
+@import "./utilities/components.css";
+@import "./utilities/color.css";
+@import "./utilities/typhografy.css";
+
+/* HOME */
+@import "/css/global/global.css";
+@import "/css/global/header.css";
