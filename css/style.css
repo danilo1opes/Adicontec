@@ -3,6 +3,10 @@
 @import "./utilities/color.css";
 @import "./utilities/typhografy.css";
 
-/* HOME */
+/* GLOBAL: */
 @import "/css/global/global.css";
 @import "/css/global/header.css";
+
+/* HOME */
+@import "./home/introduction.css";
+@import "./home/adicontec.css";

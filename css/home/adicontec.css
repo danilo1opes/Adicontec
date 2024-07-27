@@ -1,0 +1,19 @@
+.adicontec-bg {
+  background: var(--cor-0);
+}
+
+.adicontec {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.adicontec-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+}
