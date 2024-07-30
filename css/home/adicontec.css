@@ -13,7 +13,103 @@
   gap: 40px;
 }
 
+.adicontec-content h1 {
+  margin-bottom: 20px;
+}
+
+.adicontec-content p {
+  margin-bottom: 16px;
+}
+
 .mission {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 72px;
+  position: relative;
+}
+
+.mission-item {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.mission-item h2::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: var(--cor-p1);
+  border-radius: 100%;
+  position: absolute;
+  top: 25px;
+  left: -8px;
+}
+
+@media (max-width: 1200px) {
+  .adicontec-content {
+    grid-template-columns: 1fr;
+  }
+  .font-2-xxl {
+    position: relative;
+    display: inline-block;
+  }
+  .adicontec-content h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--cor-p1);
+  }
+  .adicontec-content img {
+    display: none;
+  }
+  .adicontec-content p {
+    margin-bottom: 0px;
+  }
+  .mission {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .adicontec-content h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .adicontec-content h1 {
+    font-size: 2.5rem;
+  }
+  .mission {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .adicontec {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .adicontec-content h1 {
+    font-size: 1.6rem;
+  }
+  .mission h2 {
+    font-size: 24px;
+  }
+  .mission-item h2::before {
+    width: 8px;
+    height: 8px;
+    top: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .adicontec-content h1::after {
+    display: none;
+  }
 }

@@ -1,0 +1,31 @@
+.values-bg {
+  background: var(--cor-1);
+  box-shadow: inset -60px -60px var(--cor-0);
+}
+
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 120px;
+}
+
+.values-content h2 {
+  margin-top: 64px;
+  text-transform: uppercase;
+}
+
+.values-content ul {
+  margin: 20px;
+  margin-top: 16px;
+  list-style: circle var(--cor-0);
+}
+
+.values-content ul li {
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+}
+
+.values-content span {
+  font-size: 1.5rem;
+}
