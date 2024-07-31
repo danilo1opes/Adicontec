@@ -1,13 +1,12 @@
 .values-bg {
   background: var(--cor-1);
-  box-shadow: inset -60px -60px var(--cor-0);
+  box-shadow: inset 0px -40px var(--cor-0);
 }
 
 .values {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  margin-bottom: 120px;
 }
 
 .values-content h2 {

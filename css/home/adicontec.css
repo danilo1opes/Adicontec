@@ -48,6 +48,18 @@
   left: -8px;
 }
 
+.mission-title h2::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: var(--cor-p1);
+  border-radius: 100%;
+  position: relative;
+  top: 25px;
+  left: -18px;
+}
+
 @media (max-width: 1200px) {
   .adicontec-content {
     grid-template-columns: 1fr;

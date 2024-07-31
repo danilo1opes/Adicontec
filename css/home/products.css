@@ -1,0 +1,20 @@
+.products-bg {
+  background: var(--cor-6);
+}
+
+.products-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products-content ul {
+  list-style: circle var(--cor-2);
+  margin: 8px;
+  margin-top: 16px;
+}
+
+.products-content ul li {
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+}
