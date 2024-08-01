@@ -28,3 +28,22 @@
 .values-content span {
   font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .values {
+    grid-template-columns: 1fr;
+  }
+  .values-content h2 {
+    margin-top: 32px;
+    font-size: 2rem;
+  }
+  .values img {
+    display: none;
+  }
+  .values-content ul li {
+    font-size: 12px;
+  }
+  .values-content ul li span {
+    font-size: 12px;
+  }
+}

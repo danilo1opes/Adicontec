@@ -2,6 +2,10 @@
   background: var(--cor-6);
 }
 
+.products {
+  padding-top: 120px;
+}
+
 .products-content {
   display: flex;
   justify-content: space-between;
@@ -17,4 +21,29 @@
 .products-content ul li {
   margin-bottom: 8px;
   font-size: 1.4rem;
+}
+
+@media (max-width: 800px) {
+  .products {
+    padding-top: 60px;
+  }
+  .products-content {
+    flex-direction: column;
+  }
+  .first-product {
+    display: none;
+  }
+  .products-content h1 {
+    font-size: 2rem;
+  }
+  .products-content span {
+    font-size: 12px;
+  }
+  .products-content ul li {
+    font-size: 12px;
+  }
+  .hamb {
+    width: 152px;
+    height: 182px;
+  }
 }
