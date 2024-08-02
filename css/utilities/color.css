@@ -8,6 +8,7 @@
   --cor-6: #ededed;
   --cor-7: #dedede;
   --cor-8: #b3b3b3;
+  --cor-9: #9c9c9c;
 
   --cor-p1: #ee882a;
   --cor-p2: #d97a21;
@@ -48,6 +49,10 @@
 
 .color-8 {
   color: var(--cor-8);
+}
+
+.color-9 {
+  color: var(--cor-9);
 }
 
 .color-p1 {

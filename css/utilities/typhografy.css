@@ -30,6 +30,10 @@
   font: 400 16px/1.5 "Noto Sans", sans-serif;
 }
 
+.font-footer {
+  font: 500 20px/1.4 "Noto Sans", sans-serif;
+}
+
 .font-span {
   font: 600 16px/1.5 "Noto Sans", sans-serif;
 }
