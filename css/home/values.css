@@ -1,6 +1,6 @@
 .values-bg {
   background: var(--cor-1);
-  box-shadow: inset 0px -40px var(--cor-0);
+  box-shadow: inset 0px -40px var(--cor-0), inset 0px 40px var(--cor-0);
 }
 
 .values {
@@ -29,9 +29,11 @@
   font-size: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .values {
     grid-template-columns: 1fr;
+    margin: 0 32px;
+    padding-top: 60px;
   }
   .values-content h2 {
     margin-top: 32px;

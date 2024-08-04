@@ -25,6 +25,7 @@
 
 @media (max-width: 800px) {
   .products {
+    margin: 0 32px;
     padding-top: 60px;
   }
   .products-content {

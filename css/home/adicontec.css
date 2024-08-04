@@ -60,9 +60,12 @@
   left: -18px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .adicontec-content {
     grid-template-columns: 1fr;
+  }
+  .adicontec-content h1 {
+    font-size: 3rem;
   }
   .font-2-xxl {
     position: relative;
@@ -86,13 +89,7 @@
   }
 }
 
-@media (max-width: 800px) {
-  .adicontec-content h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .adicontec-content h1 {
     font-size: 2.5rem;
   }
@@ -100,15 +97,12 @@
     grid-template-columns: 1fr;
     gap: 16px;
   }
-}
-
-@media (max-width: 400px) {
   .adicontec {
     padding-top: 64px;
     padding-bottom: 64px;
   }
   .adicontec-content h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .mission h2 {
     font-size: 24px;
@@ -117,11 +111,5 @@
     width: 8px;
     height: 8px;
     top: 22px;
-  }
-}
-
-@media (max-width: 375px) {
-  .adicontec-content h1::after {
-    display: none;
   }
 }

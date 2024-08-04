@@ -48,6 +48,9 @@
   .history-bg {
     background-color: var(--cor-0);
   }
+  .history {
+    padding-top: 40px;
+  }
   .history-content {
     flex-direction: column;
   }
