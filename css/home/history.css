@@ -70,7 +70,7 @@
   }
 }
 
-@media only screen and (orientation: landscape) {
+@media (orientation: landscape) {
   .history-img {
     width: calc(736px / 1.5);
     height: calc(736px / 1.5);

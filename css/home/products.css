@@ -50,7 +50,7 @@
   }
 }
 
-@media only screen and (orientation: landscape) {
+@media (orientation: landscape) {
   .products-content h1 {
     font-size: 3.5rem;
   }

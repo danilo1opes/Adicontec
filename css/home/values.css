@@ -51,7 +51,7 @@
   }
 }
 
-@media only screen and (orientation: landscape) {
+@media (orientation: landscape) {
   .values-content h2 {
     margin-top: 32px;
   }
