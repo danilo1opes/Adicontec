@@ -113,3 +113,12 @@
     top: 22px;
   }
 }
+
+@media (min-width: 375px) {
+  .adicontec-content h1 {
+    font-size: 2rem;
+  }
+  .adicontec-content h1::after {
+    display: none;
+  }
+}

@@ -70,7 +70,7 @@
   }
 }
 
-/* @media (orientation: landscape) {
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
   .history-img {
     width: calc(736px / 1.5);
     height: calc(736px / 1.5);
@@ -79,4 +79,4 @@
     width: calc(736px / 1.5);
     left: 300px;
   }
-} */
+}
