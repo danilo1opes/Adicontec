@@ -50,7 +50,7 @@
   }
 }
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
   .products-content h1 {
     font-size: 3.5rem;
   }
@@ -60,4 +60,4 @@
   .products-content span {
     font-size: 1.2rem;
   }
-}
+} */

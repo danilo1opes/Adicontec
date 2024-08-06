@@ -51,7 +51,7 @@
   }
 }
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
   .values-content h2 {
     margin-top: 32px;
   }
@@ -64,4 +64,4 @@
   .picture {
     align-self: center;
   }
-}
+} */
