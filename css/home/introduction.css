@@ -24,7 +24,22 @@
   background-color: var(--cor-6);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
+  .introduction-bg {
+    padding-bottom: 32px;
+  }
+  .introduction {
+    grid-template-columns: 1fr;
+  }
+  .introduction-content h1 {
+    font-size: 3rem;
+  }
+  .introduction img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
   .introduction-bg {
     padding-bottom: 32px;
   }

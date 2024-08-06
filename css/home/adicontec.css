@@ -60,7 +60,36 @@
   left: -18px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
+  .adicontec-content {
+    grid-template-columns: 1fr;
+  }
+  .adicontec-content h1 {
+    font-size: 3rem;
+  }
+  .font-2-xxl {
+    position: relative;
+    display: inline-block;
+  }
+  .adicontec-content h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--cor-p1);
+  }
+  .adicontec-content img {
+    display: none;
+  }
+  .adicontec-content p {
+    margin-bottom: 0px;
+  }
+  .mission {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
   .adicontec-content {
     grid-template-columns: 1fr;
   }

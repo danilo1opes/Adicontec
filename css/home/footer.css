@@ -57,7 +57,14 @@
   margin-top: 40px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+  }
+}
+
+@media (max-width: 768px) {
   .footer {
     grid-template-columns: 1fr 1fr;
     justify-items: start;

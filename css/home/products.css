@@ -24,7 +24,36 @@
   font-size: 1.4rem;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
+  .products-bg {
+    box-shadow: none;
+  }
+  .products {
+    margin: 0 32px;
+    padding-top: 60px;
+  }
+  .products-content {
+    flex-direction: column;
+  }
+  .first-product {
+    display: none;
+  }
+  .products-content h1 {
+    font-size: 2rem;
+  }
+  .products-content span {
+    font-size: 12px;
+  }
+  .products-content ul li {
+    font-size: 12px;
+  }
+  .hamb {
+    width: 152px;
+    height: 182px;
+  }
+}
+
+@media (max-width: 768px) {
   .products-bg {
     box-shadow: none;
   }

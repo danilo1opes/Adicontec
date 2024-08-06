@@ -44,7 +44,33 @@
   background: var(--cor-p3);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
+  .history-bg {
+    background-color: var(--cor-0);
+  }
+  .history {
+    padding-top: 40px;
+  }
+  .history-content {
+    flex-direction: column;
+  }
+  .history-content img {
+    display: none;
+  }
+  .history-content h1 {
+    font-size: 2rem;
+  }
+  .history-content p {
+    font-size: 12px;
+  }
+  .history-handle {
+    background: none;
+    width: calc(670px / 2);
+    height: calc(310px / 2);
+  }
+}
+
+@media (max-width: 768px) {
   .history-bg {
     background-color: var(--cor-0);
   }
