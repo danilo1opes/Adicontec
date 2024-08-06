@@ -44,7 +44,7 @@
   background: var(--cor-p3);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) and (max-width: 1024px) {
   .history-bg {
     background-color: var(--cor-0);
   }
@@ -67,5 +67,16 @@
     background: none;
     width: calc(670px / 2);
     height: calc(310px / 2);
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .history-img {
+    width: calc(736px / 1.5);
+    height: calc(736px / 1.5);
+  }
+  .sheets {
+    width: calc(736px / 1.5);
+    left: 300px;
   }
 }

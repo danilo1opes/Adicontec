@@ -1,9 +1,10 @@
 .products-bg {
   background: var(--cor-6);
+  box-shadow: inset 0px -40px var(--cor-0), inset 0px 40px var(--cor-0);
 }
 
 .products {
-  padding-top: 120px;
+  margin-top: 120px;
 }
 
 .products-content {
@@ -23,7 +24,7 @@
   font-size: 1.4rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) and (max-width: 1024px) {
   .products {
     margin: 0 32px;
     padding-top: 60px;
@@ -46,5 +47,17 @@
   .hamb {
     width: 152px;
     height: 182px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .products-content h1 {
+    font-size: 3.5rem;
+  }
+  .products-content ul li {
+    font-size: 1.2rem;
+  }
+  .products-content span {
+    font-size: 1.2rem;
   }
 }

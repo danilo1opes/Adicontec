@@ -1,5 +1,5 @@
 .values-bg {
-  background: var(--cor-1);
+  background-color: var(--cor-1);
   box-shadow: inset 0px -40px var(--cor-0), inset 0px 40px var(--cor-0);
 }
 
@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  margin: 0 25px;
 }
 
 .values-content h2 {
@@ -16,20 +17,20 @@
 
 .values-content ul {
   margin: 20px;
-  margin-top: 16px;
+  margin-top: 3rem;
   list-style: circle var(--cor-0);
 }
 
 .values-content ul li {
-  margin-bottom: 8px;
-  font-size: 1.5rem;
+  margin-bottom: 4px;
+  font-size: 1.2rem;
 }
 
 .values-content span {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) and (max-width: 1024px) {
   .values {
     grid-template-columns: 1fr;
     margin: 0 32px;
@@ -47,5 +48,20 @@
   }
   .values-content ul li span {
     font-size: 12px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .values-content h2 {
+    margin-top: 32px;
+  }
+  .values-content ul {
+    margin: 20px;
+  }
+  .values-bg {
+    box-shadow: inset 0px -1px var(--cor-0), inset 0px 1px var(--cor-0);
+  }
+  .picture {
+    align-self: center;
   }
 }
