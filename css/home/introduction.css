@@ -24,7 +24,7 @@
   background-color: var(--cor-6);
 }
 
-@media (max-width: 800px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .introduction-bg {
     padding-bottom: 32px;
   }

@@ -24,7 +24,7 @@
   font-size: 1.4rem;
 }
 
-@media (max-width: 800px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .products-bg {
     box-shadow: none;
   }
