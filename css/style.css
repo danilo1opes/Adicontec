@@ -6,11 +6,14 @@
 /* GLOBAL: */
 @import "/css/global/global.css";
 @import "/css/global/header.css";
+@import "/css/global/footer.css";
 
 /* HOME */
 @import "./home/introduction.css";
 @import "./home/adicontec.css";
 @import "./home/values.css";
-@import "home/products.css";
-@import "home/history.css";
-@import "home/footer.css";
+@import "./home/products.css";
+@import "./home/history.css";
+
+/* PRODUTOS */
+@import "./produtos/condimento.css";
