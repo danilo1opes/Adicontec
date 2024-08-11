@@ -73,3 +73,38 @@
   top: 15px;
   left: -12px;
 }
+
+@media (max-width: 1024px) { 
+  .tecmix-content img {
+    display: none;
+  }
+  .tecmix-inicial {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .tecmix-content {
+    margin-top: 0;
+  }
+  .tecmix-inicial {
+    box-shadow: none;
+  }
+  .icon {
+    margin-top: 40px;
+  }
+  .icon h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+  .text-3 {
+    width: calc(630px / 2.1);
+    height: 142px;
+  }
+  .divisoes3 {
+    margin-top: 20px;
+  }
+  .tecmix-footer {
+    margin-top: 0;
+  }
+}

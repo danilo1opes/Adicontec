@@ -82,13 +82,13 @@
     padding: 5px 5px;
     font-size: 1rem;
     width: calc(731px / 2.5);
-    height: calc(120px / 2.5);
+    height: calc(120px / 2);
   }
   .divisoes2 {
     margin: 0;
   }
   .divisoes2 h1 {
-    margin-top: 180px;
+    padding-top: 180px;
     font-size: 1.5rem;
   }
   .divisoes2 h1::before {
