@@ -1,0 +1,90 @@
+.corantes-bg {
+  background: linear-gradient(to right, var(--cor-2) 70%, var(--cor-0) 70%);
+  box-shadow: inset 0px -90px var(--cor-0), inset 0px 200px var(--cor-0);
+}
+
+.corantes {
+  display: grid;
+  grid-template-columns: 2fr 3fr 4fr;
+  padding-top: 120px;
+}
+
+.corantes-content {
+  margin-top: 132px;
+}
+
+.corantes-content p {
+  margin-top: 12px;
+  background: var(--cor-1);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.corantes-list {
+  margin-top: 32px;
+  position: relative;
+}
+
+.corantes-list h1 {
+  margin-bottom: 16px;
+}
+
+.corantes-list li {
+  margin-bottom: 12px;
+}
+
+.corante-cut {
+  align-content: end;
+  margin-bottom: 72px;
+}
+
+.corantes-list h1::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: var(--cor-p1);
+  border-radius: 50%;
+  position: absolute;
+  top: 11px;
+  left: -20px;
+}
+
+.corantes-list li::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 2px;
+  background: var(--cor-p1);
+  position: relative;
+  left: -14px;
+  top: 14px;
+}
+
+@media (max-width: 1024px) {
+  .corantes img {
+    display: none;
+  }
+  .corantes-bg {
+    background: #000;
+  }
+}
+
+@media (max-width: 768px) {
+  .corantes {
+    grid-template-columns: 1fr;
+    padding: 60px;
+  }
+  .corantes-content {
+    padding-top: 32px;
+  }
+  .corantes-content h1 {
+    font-size: 2.5rem;
+  }
+  .corantes-content p {
+    font-size: 1rem;
+  }
+  .corantes-list h1 {
+    font-size: 1.5rem;
+  }
+}

@@ -19,3 +19,7 @@
 @import "./produtos/condimento.css";
 @import "./produtos/aditivos.css";
 @import "./produtos/tecmix.css";
+
+/* ESPECIARIAS */
+@import "./especiarias/especiarias.css";
+@import "./especiarias/corantes.css";

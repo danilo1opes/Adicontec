@@ -1,0 +1,47 @@
+.especiarias-bg {
+  background: var(--cor-4);
+}
+
+.especiarias {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.especiarias-content p {
+  margin-top: 12px;
+}
+
+.text-1e {
+  width: 733px;
+  height: 152px;
+  background: var(--cor-0);
+  padding: 10px 0px 0px 20px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+  .especiarias img {
+    display: none;
+  }
+  .especiarias {
+    padding-bottom: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .especiarias h1 {
+    font-size: 2.5rem;
+  }
+  .especiarias {
+    padding-top: 32px;
+  }
+  .especiarias-content p {
+    font-size: 1rem;
+  }
+  .text-1e {
+    width: calc(733px / 2);
+    height: calc(152px / 2);
+    background: none;
+  }
+}
