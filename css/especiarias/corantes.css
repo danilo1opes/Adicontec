@@ -61,25 +61,44 @@
   top: 14px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .corantes img {
     display: none;
   }
   .corantes-bg {
     background: #000;
+    box-shadow: none;
+  }
+  .corantes {
+    padding-top: 0px;
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+  .corantes-content {
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .corantes picture {
+    display: none;
+  }
+  .corante-cut {
+    display: none;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .corantes {
     grid-template-columns: 1fr;
-    padding: 60px;
-  }
-  .corantes-content {
-    padding-top: 32px;
+    padding: 32px;
   }
   .corantes-content h1 {
     font-size: 2.5rem;
+  }
+  .corantes-content ul h1 {
+    font-size: 1.3rem;
+  }
+  .corantes-content ul {
+    margin: 20px;
   }
   .corantes-content p {
     font-size: 1rem;

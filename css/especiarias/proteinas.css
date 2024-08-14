@@ -1,0 +1,93 @@
+.proteinas-bg {
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-4) 30%);
+}
+
+.proteinas {
+  display: flex;
+  margin-left: 37.5rem;
+}
+
+.proteinas-content {
+  padding-top: 32px;
+  position: relative;
+}
+
+.proteinas-content p {
+  background: var(--cor-0);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.proteinas-content h1 {
+  padding-bottom: 8px;
+}
+
+.proteinas-content ul {
+  padding-top: 32px;
+}
+
+.proteinas-content h1 {
+  margin-bottom: 24px;
+}
+
+.proteinas-content li {
+  margin: 12px;
+}
+
+.proteinas-content ul h1::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: var(--cor-p1);
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+
+.proteinas-content ul li::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 2px;
+  background: var(--cor-p2);
+  position: relative;
+  top: 13px;
+  right: 12px;
+}
+
+@media (max-width: 1200px) {
+  .proteinas img {
+    display: none;
+  }
+  .proteinas-bg {
+    background: none;
+  }
+  .proteinas {
+    margin-left: 0px;
+    padding: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .proteinas {
+    padding-top: 0px;
+  }
+  .proteinas h1 {
+    font-size: 2.5rem;
+  }
+  .proteinas-content p {
+    font-size: 1rem;
+  }
+  .proteinas-content ul {
+    margin: 20px;
+    padding-top: 10px;
+  }
+  .proteinas-content ul h1 {
+    font-size: 1.3rem;
+  }
+  .footer {
+    margin-top: 0px;
+  }
+}
