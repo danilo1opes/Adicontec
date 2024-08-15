@@ -24,3 +24,7 @@
 @import "./especiarias/especiarias.css";
 @import "./especiarias/corantes.css";
 @import "./especiarias/proteinas.css";
+
+/* CONTATO */
+@import "./contato/start-contato.css";
+@import "./contato/contato.css";

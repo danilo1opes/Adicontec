@@ -1,0 +1,47 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.start-content {
+  padding-top: 60px;
+  position: relative;
+}
+
+.start-content p {
+  padding-top: 72px;
+}
+
+.text-contact {
+  flex-wrap: wrap;
+}
+
+.start-content h1::after {
+  content: "";
+  display: block;
+  width: 318px;
+  height: 4px;
+  background: var(--cor-p2);
+  border-radius: 5px;
+  position: absolute;
+  left: 47.4rem;
+  margin-top: 35px;
+}
+
+@media (max-width: 768px) {
+  .start-content {
+    padding-top: 32px;
+  }
+  .start-content h1 {
+    font-size: 1.6rem;
+  }
+  .start-content h1::after {
+    left: 50px;
+    width: calc(318px / 1.6);
+  }
+  .start-content p {
+    font-size: 0.9rem;
+  }
+}

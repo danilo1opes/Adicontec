@@ -1,0 +1,15 @@
+.contato-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 120px;
+  justify-items: center;
+  margin-right: 40px;
+}
+
+.notepad {
+  width: 402px;
+  height: 416px;
+  border-radius: 5px;
+  background-color: var(--cor-0);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15); /* Sombra mais suave */
+}
