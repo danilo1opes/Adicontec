@@ -57,7 +57,7 @@
   right: 12px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   .proteinas img {
     display: none;
   }
@@ -68,6 +68,12 @@
     margin-left: 0px;
     padding: 32px;
   }
+  .proteinas-content p {
+    background: var(--cor-0);
+  }
+  .footer {
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -76,17 +82,20 @@
   }
   .proteinas h1 {
     font-size: 2.5rem;
+    margin-bottom: 12px;
   }
   .proteinas-content p {
     font-size: 1rem;
+    background: var(--cor-0);
   }
   .proteinas-content ul {
     margin: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
   }
   .proteinas-content ul h1 {
     font-size: 1.3rem;
   }
+
   .footer {
     margin-top: 0px;
   }

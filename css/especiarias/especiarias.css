@@ -13,38 +13,50 @@
 }
 
 .text-1e {
-  width: 733px;
-  height: 152px;
   background: var(--cor-0);
-  padding: 10px 0px 0px 20px;
+  padding: 10px 20px; /* Ajuste do padding para incluir todos os lados */
   border-radius: 5px;
+  aspect-ratio: 733 / 152; /* Mantém a proporção original */
+  max-width: 733px; /* Limita a largura máxima */
+  width: 100%; /* Para responsividade */
+  box-sizing: border-box; /* Inclui o padding no cálculo da largura */
 }
 
+.picture {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a área disponível */
+  margin-left: 20px; /* Espaço entre o texto e a imagem */
+  flex-shrink: 0; /* Previne que a imagem diminua demais */
+}
+
+/* Ajustes para telas menores */
 @media (max-width: 1280px) {
   .especiarias img {
     display: none;
   }
   .especiarias {
-    padding-bottom: 140px;
+    padding-bottom: 50px;
+  }
+  .text-1e {
+    max-width: 100%;
+    aspect-ratio: 366.5 / 32;
   }
 }
 
 @media (max-width: 768px) {
+  .especiarias {
+    padding-top: 32px;
+    padding-bottom: 0px;
+  }
   .especiarias h1 {
     font-size: 2.5rem;
   }
   .especiarias-content {
     padding-bottom: 32px;
   }
-  .especiarias {
-    padding-top: 32px;
-  }
   .especiarias-content p {
     font-size: 1rem;
   }
   .text-1e {
-    width: calc(733px / 2);
-    height: calc(152px / 2);
-    background: none;
+    background: var(--cor-0);
   }
 }

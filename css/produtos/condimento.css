@@ -54,8 +54,14 @@
 }
 
 @media (max-width: 1024px) {
+  .condimento {
+    grid-template-columns: 1fr;
+  }
   .condimento img {
     display: none;
+  }
+  .text-1 {
+    padding: 10px;
   }
 }
 
@@ -75,10 +81,10 @@
     font-size: 1rem;
   }
   .text-1 {
-    background: none;
     font-size: 1rem;
-    width: calc(731px / 2.5);
-    height: calc(78px / 2.5);
+  }
+  .divisoes {
+    padding-top: 0px;
   }
   .divisoes ul {
     margin-left: 12px;
@@ -88,6 +94,9 @@
     margin-top: 100px;
   }
   .divisoes h1::before {
-    top: 150px;
+    top: 11px;
+  }
+  .divisoes h1 {
+    margin-top: 32px;
   }
 }

@@ -40,6 +40,12 @@
   gap: 8px;
 }
 
+@media (max-width: 1280px) {
+  .contato-content {
+    margin-bottom: 32px;
+  }
+}
+
 @media (max-width: 768px) {
   .contato-content {
     grid-template-columns: 1fr;
