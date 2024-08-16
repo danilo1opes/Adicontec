@@ -55,7 +55,8 @@
     padding: 12px 16px;
     border-radius: 5px;
   }
-  .header-menu a:hover::after {
+  .header-menu a:hover::after,
+  .header-menu a.active::after {
     width: 0;
   }
 }
