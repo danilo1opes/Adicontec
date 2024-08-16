@@ -1,6 +1,6 @@
 .values-bg {
   background-color: var(--cor-1);
-  box-shadow: inset 0px -40px var(--cor-0), inset 0px 40px var(--cor-0);
+  box-shadow: inset 0px -80px var(--cor-0), inset 0px 80px var(--cor-0);
 }
 
 .values {
@@ -8,6 +8,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   margin: 0 25px;
+  padding: 50px;
 }
 
 .values-content h2 {
@@ -31,6 +32,9 @@
 }
 
 @media (max-width: 1024px) {
+  .values-bg {
+    box-shadow: none;
+  }
   .values {
     grid-template-columns: 1fr;
     margin: 0 32px;
@@ -38,13 +42,19 @@
   }
   .values-content h2 {
     margin-top: 32px;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .values img {
     display: none;
   }
   .values-content ul li {
-    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  #values-span {
+    font-size: 1.2rem;
+  }
+  .values-content ul {
+    margin-top: 1.2rem;
   }
   .values-content ul li span {
     font-size: 12px;
@@ -54,21 +64,22 @@
 @media (max-width: 768px) {
   .values {
     grid-template-columns: 1fr;
-    margin: 0 32px;
+    margin: auto;
     padding-top: 60px;
   }
   .values-content h2 {
     margin-top: 32px;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    text-decoration: underline;
   }
   .values img {
     display: none;
   }
   .values-content ul li {
-    font-size: 12px;
+    font-size: 16px;
   }
-  .values-content ul li span {
-    font-size: 12px;
+  #values-span {
+    font-size: 17px;
   }
 }
 

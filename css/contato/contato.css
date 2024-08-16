@@ -12,4 +12,54 @@
   border-radius: 5px;
   background-color: var(--cor-0);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15); /* Sombra mais suave */
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.notepad h1 {
+  text-transform: lowercase;
+  margin-top: 24px;
+}
+
+.paragrafo {
+  margin-top: 28px;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+.notepad p {
+  color: var(--cor-10);
+  margin-bottom: 12px;
+}
+
+.flex-image {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .contato-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 24px;
+  }
+  .notepad {
+    width: 100%;
+    padding: 15px;
+  }
+  .notepad h1 {
+    font-size: 1.9rem;
+  }
+  .notepad p {
+    margin-bottom: 15px;
+  }
+  .notepad p,
+  .font-c-1 {
+    font-size: 1.3rem;
+  }
 }

@@ -30,6 +30,15 @@
   margin-top: 35px;
 }
 
+@media (max-width: 1024px) {
+  .none {
+    display: none;
+  }
+  .start-content h1::after {
+    left: 13.75rem;
+  }
+}
+
 @media (max-width: 768px) {
   .start-content {
     padding-top: 32px;
@@ -42,6 +51,6 @@
     width: calc(318px / 1.6);
   }
   .start-content p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
