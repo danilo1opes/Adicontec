@@ -57,6 +57,7 @@
   }
   .footer {
     margin: 0px;
+    padding: 32px;
   }
   .footer-contact h3 {
     font-size: 1.5rem;
@@ -78,6 +79,7 @@
 @media (max-width: 800px) {
   .footer {
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
 }
 
