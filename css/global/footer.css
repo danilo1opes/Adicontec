@@ -55,6 +55,9 @@
     margin-top: 5px;
     display: block;
   }
+  .footer {
+    margin: 0px;
+  }
   .footer-contact h3 {
     font-size: 1.5rem;
   }
