@@ -61,6 +61,12 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .header-container {
+    align-items: center;
+  }
+}
+
 @media (max-width: 768px) {
   .header-container {
     flex-wrap: wrap;
